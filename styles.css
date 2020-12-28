@@ -54,3 +54,14 @@ hr{
     padding: 0rem 0.5rem;
 
 }
+/* navigations */
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.navigation .link{
+    color: white;
+}
+
