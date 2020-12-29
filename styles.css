@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 hr{
@@ -97,6 +98,7 @@ hr{
     margin: auto;
 }
 .hero .hero-heading{
+    text-align: center;
     color: var(--dark-grey);
     padding-top: 1rem;
 }
@@ -118,4 +120,22 @@ by making span a class and then changing its color here ez as that... */
 
 .ow{
     background-color: var(--off-white);
+}
+
+/* footer */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+    /* text-decoration: underline; */
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
