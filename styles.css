@@ -2,6 +2,7 @@
 
 :root{
     --primary-color: #4F46E5;
+    --dark-grey: #6B7280;
 }
 
 body{
@@ -59,9 +60,49 @@ hr{
 .navigation{
     background-color: var(--primary-color);
     color: white;
+    /* text-align: right; */
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* first navigation is for navigation area then we use other classes that we have defined to make changes inside navigation */
+.navigation .nav-pills{
+    text-align: right;
 }
 
 .navigation .link{
     color: white;
+    /* text-align: right; */
 }
 
+.navigation .link-active{
+    font-weight: bold;
+}
+
+/**header**/
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-image{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    color: var(--dark-grey);
+    padding-top: 1rem;
+}
+
+/* we can do the span thingi here as well
+by making span a class and then changing its color here ez as that... */
+
+/* ************** */
+
+/* sections */
