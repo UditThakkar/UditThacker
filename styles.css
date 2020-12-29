@@ -3,6 +3,7 @@
 :root{
     --primary-color: #4F46E5;
     --dark-grey: #6B7280;
+    --off-white: #E5E7EB;
 }
 
 body{
@@ -106,3 +107,15 @@ by making span a class and then changing its color here ez as that... */
 /* ************** */
 
 /* sections */
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
