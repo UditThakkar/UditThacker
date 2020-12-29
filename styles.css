@@ -1,65 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-:root{
+:root {
     --primary-color: #4F46E5;
     --dark-grey: #6B7280;
     --off-white: #E5E7EB;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
 
-hr{
+hr {
     margin: 2rem 0rem;
 }
 
 /** container **/
-.container{
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-.container-center{
+.container-center {
     max-width: 600px;
     margin: auto;
 }
 
 /* links */
-.link{
+.link {
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
+
 /* this was for total links */
 
-.primary-link{
+.primary-link {
     background-color: var(--primary-color);
-    border-radius: 00.5rem; /**this is for border**/
-    color: white; /**this is color of the text**/
+    border-radius: 00.5rem;
+    /**this is for border**/
+    color: white;
+    /**this is color of the text**/
 }
+
 /* this is for primary */
-.secondary-link{
+.secondary-link {
     color: var(--primary-color);
     border-radius: 00.5rem;
     border: 1px solid var(--primary-color);
 }
+
 /* this is for secondary */
 
 /* lists */
 
-.list-non-bullet{
+.list-non-bullet {
     list-style: none;
 }
 
-.list-item-inline{
+.list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
 
 }
+
 /* navigations */
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
     color: white;
     /* text-align: right; */
@@ -67,37 +73,38 @@ hr{
     border-bottom-left-radius: 1rem;
 }
 
-.navigation .nav-brand{
+.navigation .nav-brand {
     font-weight: bold;
     font-size: 1.5rem;
 }
 
 /* first navigation is for navigation area then we use other classes that we have defined to make changes inside navigation */
-.navigation .nav-pills{
+.navigation .nav-pills {
     text-align: right;
 }
 
-.navigation .link{
+.navigation .link {
     color: white;
     /* text-align: right; */
 }
 
-.navigation .link-active{
+.navigation .link-active {
     font-weight: bold;
 }
 
 /**header**/
 
-.hero{
+.hero {
     padding: 2rem;
 }
 
-.hero .hero-image{
+.hero .hero-image {
     max-width: 400px;
     display: block;
     margin: auto;
 }
-.hero .hero-heading{
+
+.hero .hero-heading {
     text-align: center;
     color: var(--dark-grey);
     padding-top: 1rem;
@@ -118,13 +125,13 @@ by making span a class and then changing its color here ez as that... */
     text-align: center;
 }
 
-.ow{
+.ow {
     background-color: var(--off-white);
 }
 
 /* footer */
 
-.footer{
+.footer {
     background-color: var(--primary-color);
     padding: 2rem 0rem;
     text-align: center;
@@ -132,10 +139,11 @@ by making span a class and then changing its color here ez as that... */
     border-top-right-radius: 1rem;
 }
 
-.footer .link{
+.footer .link {
     color: white;
     /* text-decoration: underline; */
 }
-.footer ul{
+
+.footer ul {
     padding-inline-start: 0px;
 }
