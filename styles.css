@@ -22,7 +22,8 @@ hr {
 /* space */
 
 .space{
-    padding: 2rem;
+    /* padding: 2rem; */
+    margin-bottom: 2px;
 }
 
 /** container **/
