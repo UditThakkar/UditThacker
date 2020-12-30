@@ -90,6 +90,7 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
+    /* text-decoration: solid; */
 }
 
 /**header**/
@@ -146,4 +147,9 @@ by making span a class and then changing its color here ez as that... */
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
